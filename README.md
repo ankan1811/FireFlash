@@ -1,2 +1,2 @@
 # FireFlash
-Next billion dollar idea in making.Work is in progress.Please skip this repository until its complete.Thank you.
+  It is the real time Instagram web application consisting of all major functions of Instagram including signup,signin, create post,delete post, follow and unfollow users,make comments and many more.You can refer to the code.I have added detailed explanation.It is a MERN stack project comprising React, MongoDB,Express and Nodejs

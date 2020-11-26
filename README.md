@@ -90,7 +90,7 @@ Sneaky features of FireFlash ✅ :
    ![](images/unlike.png)
   
   
-  ## 12. Follow and unfollow any user
+  ## 12. Follow and unfollow any user(If followed then infollow button appears and vice versa)
   
    ![](images/follow.png)
   

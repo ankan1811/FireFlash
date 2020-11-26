@@ -29,8 +29,44 @@ Sneaky features of FireFlash ✅ :
 ## 2.Invalid email check during signup(Using email Regex)
 
 
+
 ![](images/signup2mainpng.png)
 
+
+## 3. Saved successfully display on signup success and redirect to signin page and details get saved in my mongoDB account.
+
+
+![](images/valid.png)
+
+
+![](images/save.png)
+
+![](images/mongo1.png)
+
+## 4.Signin and successful signup before loading home screen
+
+![](images/signin.png)
+
+![](images/successful.png)
+
+## 5.Home screen 
+
+
+![](images/post1.png)
+
+
+## 6.Profile of signed in user
+
+![](images/profile2.png)
+
+## 7. Create post
+
+![](images/savepost.png)
+
+![](images/successful%20post.png)
+
+
+## 7.
 cloudinary1.png
 Add files via upload
 11 days ago

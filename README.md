@@ -18,6 +18,11 @@ Sneaky features of FireFlash ✅ :
 
 ❓ Authentication : Token Based Authentication
 
+❓ Email verification : Email regex
+
+❓ HTTP requests verification : Postman
+
+ 
 
 # Overview of all functionalities in the steps of completion of the social media web application
 ## 1.Signup (for new users)

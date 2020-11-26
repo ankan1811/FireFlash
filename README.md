@@ -5,7 +5,7 @@ This is a REACT Application Built Cloning All the basic functionalities that the
 
 
 # Features :
-Sneaky features of PicStagram ✅ :
+Sneaky features of FireFlash ✅ :
 
 ⭐ Create Your Profile ⭐ LOgin & SignUp using Jwt Authentication ⭐ Upload And Edit Your Display Profile ⭐ Create a new Post to be featured on the Wall ⭐ Like Others Post ⭐ Comment on Others Post ⭐ Real-time display of Followers and Followings ⭐ Follow and Unfollow Other Users ⭐ Delete Your Post
 ![](Images/image001.png)

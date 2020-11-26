@@ -76,7 +76,7 @@ Sneaky features of FireFlash ✅ :
   
   
   
- ## 10. Using postman to verify the get and post requests 
+ ## 10. Using postman to verify the post requests 
  
  
  ![](images/postman1.png)
@@ -88,6 +88,7 @@ Sneaky features of FireFlash ✅ :
  
  
  
+ ## 11. Using postman to verify the get requests 
  
  
  

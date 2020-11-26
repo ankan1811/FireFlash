@@ -23,7 +23,7 @@ Sneaky features of FireFlash ✅ :
 ## 1.Signup (for new users)
 
 
-![](Images/signup.png)
+![](images/signup.png)
 cloudinary1.png
 Add files via upload
 11 days ago

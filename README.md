@@ -74,9 +74,39 @@ Sneaky features of FireFlash ✅ :
 
   ![](images/cloudinary1.png)
   
+ ## 10.Update profile picture of signed in user
+ 
+  ![](images/profilepic.png)
   
   
- ## 10. Using postman to verify the post requests 
+  
+  
+## 11. Like and unlike post (If liked then unlike button appears and vice-versa) 
+  
+   ![](images/like.png)
+  
+  
+  
+   ![](images/unlike.png)
+  
+  
+  ## 12. Follow and unfollow any user
+  
+   ![](images/follow.png)
+  
+  
+   ![](images/Unfollow.png)
+  
+  
+  
+  ## 13.Add comments to posts
+  
+  
+   ![](images/comment.png)
+  
+  
+  
+ ## 14. Using postman to verify the post requests 
  
  
  ![](images/postman1.png)
@@ -88,7 +118,7 @@ Sneaky features of FireFlash ✅ :
  
  
  
- ## 11. Using postman to verify the get requests 
+ ## 15. Using postman to verify the get requests 
  
  
  

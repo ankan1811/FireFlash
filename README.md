@@ -18,7 +18,12 @@ Sneaky features of FireFlash ✅ :
 
 ❓ Authentication : Token Based Authentication
 
-![](Images/image001.png)
+
+# Overview of all functionalities in the steps of completion of the social media web application
+## 1.Signup (for new users)
+
+
+![](Images/signup.png)
 cloudinary1.png
 Add files via upload
 11 days ago

@@ -66,60 +66,34 @@ Sneaky features of FireFlash ✅ :
 ![](images/successful%20post.png)
 
 
-## 7.
-cloudinary1.png
-Add files via upload
-11 days ago
-insta.png
-Add files via upload
-11 days ago
-mongo1.png
-Add files via upload
-11 days ago
-mongo2.png
-Add files via upload
-11 days ago
-post1.png
-Add files via upload
-11 days ago
-postman1.png
-Add files via upload
-11 days ago
-postman2.png
-Add files via upload
-11 days ago
-postman3.png
-Add files via upload
-11 days ago
-profile.png
-Add files via upload
-11 days ago
-profile2.png
-Add files via upload
-11 days ago
-save.png
-Add files via upload
-11 days ago
-savepost.png
-Add files via upload
-11 days ago
-signin.png
-Add files via upload
-11 days ago
-signup.png
-Add files via upload
-11 days ago
-signup2mainpng.png
-Add files via upload
-11 days ago
-successful post.png
-Add files via upload
-11 days ago
-successful.png
-Add files via upload
-11 days ago
-test
-Create test
-11 days ago
-valid.png
-Add files via upload
+## 8. Post details saved in my mongoDB
+
+  ![](images/mongo2.png)
+  
+## 9. Post image also gets saved in my cloudinary
+
+  ![](images/cloudinary1.png)
+  
+  
+  
+ ## 10. Using postman to verify the get and post requests 
+ 
+ 
+ ![](images/postman1.png)
+ 
+ 
+ 
+ 
+ ![](images/postman2.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ ![](images/postman3.png)
+ 
+ 
+ 
+ 
+  

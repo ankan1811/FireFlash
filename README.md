@@ -24,6 +24,13 @@ Sneaky features of FireFlash ✅ :
 
 
 ![](images/signup.png)
+
+
+## 2.Invalid email check during signup(Using email Regex)
+
+
+![](images/signup2mainpng.png)
+
 cloudinary1.png
 Add files via upload
 11 days ago

@@ -16,7 +16,7 @@ module.exports = (req,res,next)=>{//Middleware function
        return res.status(401).json({error:"you must be logged in"})
     }
     const token = authorization.replace("Bearer ","")
-    jwt.verify(token,JWT_SECRET,(err,payload)=>{
+    jwt.verify(token,JWT_SECRET,(err,payload)=>{//Generate a token by Bearer string. Check if it is the same token that was created in jwt.
         //callback with error and payload
         if(err){
          return   res.status(401).json({error:"you must be logged in"})

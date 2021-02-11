@@ -22,7 +22,12 @@ Sneaky features of FireFlash ✅ :
 
 ❓ Email verification : Email regex
 
-❓ HTTP requests verification : Postman
+❓ HTTP requests and API verification : Postman
+
+❓ Sending signup mail : Nodemailer
+
+❓ Hashing Password : bcrypt.js
+
 
  
 
@@ -40,7 +45,7 @@ Sneaky features of FireFlash ✅ :
 ![](images/signup2mainpng.png)
 
 
-## 3. Saved successfully display on signup success and redirect to signin page and details get saved in my mongoDB account.
+## 3. Saved successfully display on signup success and redirect to signin page and details get saved in my mongoDB account with hashed password.
 
 
 ![](images/valid.png)

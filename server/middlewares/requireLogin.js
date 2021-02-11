@@ -22,7 +22,7 @@ module.exports = (req,res,next)=>{//Middleware function
          return   res.status(401).json({error:"you must be logged in"})
         }
 
-        const {_id} = payload//destructuring _id from payload
+        const {_id} = payload//destructuring _id from payload >MongoDB by default provides _id
         User.findById(_id).then(userdata=>{
             req.user = userdata//req.user contains all user details
             next()//next() in middleware will stop this current middleware and proceed to the next middleware or execute next code further

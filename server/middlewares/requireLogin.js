@@ -7,8 +7,8 @@ const User = mongoose.model("User")
 //   app.get('/about',middleware,(req,res)=>{
 
 //})
-module.exports = (req,res,next)=>{//Middleware function 
-    const {authorization} = req.headers//export it so that other files can access it
+module.exports = (req,res,next)=>{//Middleware function export it so that other files can access it
+    const {authorization} = req.headers//
     //authorization === Bearer ewefwegwrherhe
     //Format of token: Authorization : Bearer <token>
     //if authorization is not there
@@ -16,7 +16,7 @@ module.exports = (req,res,next)=>{//Middleware function
         //unauthorized to access it
        return res.status(401).json({error:"you must be logged in"})
     }
-    const token = authorization.replace("Bearer ","")
+    const token = authorization.replace("Bearer ","")//replace the bearer with empty string and you will get the token 
     jwt.verify(token,JWT_SECRET,(err,payload)=>{//Generate a token by Bearer string. Check if it is the same token that was created in jwt.
         //callback with error and payload
         if(err){

@@ -7,7 +7,7 @@ const Post =  mongoose.model("Post")
 
 router.get('/allpost',requireLogin,(req,res)=>{//To fetch all the posts
     Post.find()
-    .populate("postedBy","_id name")
+    .populate("postedBy","_id name") //populate(name of the property we can merge the details of the post with the post id using populate.
     .populate("comments.postedBy","_id name")
     .sort('-createdAt')
     .then((posts)=>{

@@ -88,7 +88,7 @@ const SignIn  = ()=>{
             type="password"
             placeholder="password"
             value={password}
-            onChange={(e)=>setPasword(e.target.value)}
+            onChange={(e)=>setPasword(e.target.value)} //target is the textbox value is the enteredvalue of textbox
             />
             <div className="file-field input-field">
             <div className="btn #64b5f6 blue darken-1">

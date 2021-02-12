@@ -26,6 +26,7 @@ module.exports = (req,res,next)=>{//Middleware function export it so that other 
         const {_id} = payload//destructuring _id from payload >MongoDB by default provides _id
         User.findById(_id).then(userdata=>{
             req.user = userdata//req.user contains all user details which ww will give back to the user if he has the token
+            //This operation may take a time so use next.
             next()//next() in middleware will stop this current middleware and proceed to the next middleware or execute next code further
         })
         

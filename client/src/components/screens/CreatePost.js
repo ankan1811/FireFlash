@@ -9,7 +9,7 @@ const CretePost = ()=>{
     const [url,setUrl] = useState("")
     useEffect(()=>{
        if(url){
-        fetch("/createpost",{
+        fetch("/createpost",{ // this createpost route is in the backend
             method:"post",
             headers:{
                 "Content-Type":"application/json",

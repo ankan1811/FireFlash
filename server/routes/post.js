@@ -7,7 +7,8 @@ const Post =  mongoose.model("Post")
 
 router.get('/allpost',requireLogin,(req,res)=>{//To fetch all the posts
     Post.find()
-    .populate("postedBy","_id name") //populate(name of the property we can merge the details of the post with the post id using populate.
+    .populate("postedBy","_id name") //populate(name of the property)We are only getting id of the user in posted by.
+    //Using populate we will nget all the details of posted by i.e. all detils of the user who posted. we can merge the details of the post with the post id using populate.
     .populate("comments.postedBy","_id name")
     .sort('-createdAt')
     .then((posts)=>{

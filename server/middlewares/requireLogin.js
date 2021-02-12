@@ -10,7 +10,8 @@ const User = mongoose.model("User")
 module.exports = (req,res,next)=>{//Middleware function 
     const {authorization} = req.headers//export it so that other files can access it
     //authorization === Bearer ewefwegwrherhe
-    //if authorization is not there(Bearer (token))
+    //Format of token: Authorization : Bearer <token>
+    //if authorization is not there
     if(!authorization){
         //unauthorized to access it
        return res.status(401).json({error:"you must be logged in"})

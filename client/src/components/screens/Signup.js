@@ -41,7 +41,7 @@ const SignIn  = ()=>{
                 "Content-Type":"application/json"
             },
             body:JSON.stringify({//We need to stringify as user will enter string only
-                name,
+                name,//Key and value both are same
                 password,
                 email,
                 pic:url

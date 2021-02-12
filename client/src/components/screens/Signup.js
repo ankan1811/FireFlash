@@ -68,7 +68,7 @@ const SignIn  = ()=>{
        
     }
 
-   return (
+   return ( //Here the design of the webpage is present.
       <div className="mycard">
           <div className="card auth-card input-field">
             <h2>Instagram</h2>

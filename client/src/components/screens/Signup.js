@@ -40,7 +40,7 @@ const SignIn  = ()=>{
             headers:{
                 "Content-Type":"application/json"
             },
-            body:JSON.stringify({
+            body:JSON.stringify({//We need to stringify as user will enter string only
                 name,
                 password,
                 email,

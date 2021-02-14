@@ -1,6 +1,6 @@
 //npm config production =false ensures that the next command written after works on the production side.
     //Heroku has to type the build command in client folder i.e.build the react project
-//Also remove p[roxy because during deployment both client and server run on same domains
+//Also remove proxy because during deployment both client and server run on same domains
  
 {
   "name": "server",

@@ -28,6 +28,7 @@ Sneaky features of FireFlash ✅ :
 
 ❓ Hashing Password : bcrypt.js
 
+❓ Deployment : Heroku
 
  
 

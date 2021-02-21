@@ -90,14 +90,17 @@ Sneaky features of FireFlash ✅ :
  ## 10.Update profile picture of signed in user
  
  
-  
+  ![](images/profilepic.png)
   
   
   
 ## 11. Like and unlike post (If liked then unlike button appears and vice-versa) 
   
   
+  ![](images/like.png)
   
+  
+  ![](images/unlike.png)
   
   
   

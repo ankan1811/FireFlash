@@ -118,7 +118,7 @@ Sneaky features of FireFlash ✅ :
   
   
    
-  
+  ![](images/commentpost.png)
   
   
  ## 14. Using postman to verify the post requests 

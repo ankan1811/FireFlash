@@ -117,7 +117,7 @@ Sneaky features of FireFlash ✅ :
   ## 13.Add comments to posts
   
   
-   ![](images/comment.png)
+   
   
   
   

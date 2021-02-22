@@ -39,14 +39,14 @@ Sneaky features of FireFlash ✅ :
 ![](images/signup.png)
 
 
-## 2.Invalid email check during signup(Using email Regex)
+## 2.Invalid email check during signup(Using email Regex).We get to see a Red Toast message!!!
 
 
 
 ![](images/signup2mainpng.png)
 
 
-## 3. Saved successfully display on signup success and redirect to signin page and details get saved in my mongoDB account with hashed password.
+## 3. Saved successfully display on signup success and redirect to signin page and details get saved in my mongoDB account with hashed password. We get to see a Green Toast Message!!!
 
 
 ![](images/valid.png)

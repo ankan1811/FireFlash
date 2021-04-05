@@ -77,8 +77,8 @@ router.post('/signin',(req,res)=>{
                 // res.json({message:"successfully signed in"})
                 //if user has to access any protected resource then he must have a token during signin
                const token = jwt.sign({_id:savedUser._id},JWT_SECRET)//user id(payload) and the secret key which was created in keys.js
-               const {_id,name,email,followers,following,pic} = savedUser//if successful authentication we will provide these 4 items
-               res.json({token,user:{_id,name,email,followers,following,pic}})// We will get the token json response
+               const {_id,name,email,followers,following,pic} = savedUser//if successful authentication get all the deatils of savedUser
+               res.json({token,user:{_id,name,email,followers,following,pic}})// We wil provide these 4 items + token as a json response (Traversy media)
             }
             else{
                 return res.status(422).json({error:"Invalid Email or password"})

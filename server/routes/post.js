@@ -40,7 +40,7 @@ router.post('/createpost',requireLogin,(req,res)=>{//requirelogin middleware is 
     if(!title || !body || !pic){
       return  res.status(422).json({error:"Plase add all the fields"})
     }
-    req.user.password = undefined //Make sure that the password is not stored in the post in mongo database and hence not visible 
+    req.user.password = undefined //Make sure that the password is not stored in the post and hence not visible in the response that we get
     const post = new Post({//Features of post
         title,
         body,

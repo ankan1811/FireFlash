@@ -32,7 +32,7 @@ const Routing = ()=>{
   },[])
   return(
     <Switch>
-      <Route exact path="/" > //If the path is / we will show a home component.
+      <Route exact path="/" > //If the path is / we will show the Home component present in Home.js.
       <Home />
       </Route>
       <Route path="/signin">

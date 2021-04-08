@@ -8,7 +8,7 @@ const User = mongoose.model("User")
 
 //})
 module.exports = (req,res,next)=>{//Middleware function export it so that other files can access it
-    const {authorization} = req.headers
+    const {authorization} = req.headers//It is present in header section at the top in postman(In headers section,key =Authorization and value= Bearer token).
     //authorization === Bearer ewefwegwrherhe
     //Format of token: Authorization : Bearer <token>
     //if authorization is not there or undefined

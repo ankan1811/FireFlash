@@ -56,7 +56,7 @@ router.post('/createpost',requireLogin,(req,res)=>{//requirelogin middleware is 
 })
 
 router.get('/mypost',requireLogin,(req,res)=>{
-    Post.find({postedBy:req.user._id})
+    Post.find({postedBy:req.user._id}) //postedby should be the id of the user who is logged in
     .populate("PostedBy","_id name")
     .then(mypost=>{
         res.json({mypost})

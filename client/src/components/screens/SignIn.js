@@ -41,7 +41,7 @@ const SignIn  = ()=>{
                //Payload is what is keyed ( the key value pairs ) in your actions
                // and passed around between reducers in your redux application.
                M.toast({html:"signedin success",classes:"#43a047 green darken-1"})
-               history.push('/')
+               history.push('/') //on successful signin user will navigate to home screen i.e. / route
            }
         }).catch(err=>{
             console.log(err)

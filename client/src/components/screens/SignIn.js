@@ -34,7 +34,7 @@ const SignIn  = ()=>{
               M.toast({html: data.error,classes:"#c62828 red darken-3"})
            }
            else{
-               localStorage.setItem("jwt",data.token)//saving token in local storage
+               localStorage.setItem("jwt",data.token)//saving token in local storage and we can only store a string in local storage.
                localStorage.setItem("user",JSON.stringify(data.user))
                //dispatch() is the method used to dispatch actions and trigger state changes to the store. 
                dispatch({type:"USER",payload:data.user})//action creator and payload(userReducer.js)

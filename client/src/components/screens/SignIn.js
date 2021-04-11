@@ -2,9 +2,10 @@ import React,{useState,useContext,} from 'react'
 import {Link,useHistory} from 'react-router-dom'
 import {UserContext} from '../../App'
 import M from 'materialize-css'
-const SignIn  = ()=>{
-    const {state,dispatch} = useContext(UserContext)//React Context API is a way to essentially create global variables 
-    //that can be passed around in a React app. 
+const SignIn  = ()=>{ //state,dispatch was passed in userContext provider in app.js
+    const {state,dispatch} = useContext(UserContext)//“useContext” hook is used to create common data that can be accessed 
+    //throughout the component hierarchy without passing the props down manually to each level.
+    
     //useContext hook allows passing data to children elements without using redux.
     // useContext is a named export in react so we can importin functional components
     const history = useHistory()//The useHistory hook gives you access to the history instance that you may use to navigate

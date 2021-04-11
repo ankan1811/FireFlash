@@ -63,8 +63,11 @@ const Routing = ()=>{
     </Switch>
   )
 }
+//We want to access the history to check if the user has the token or not. Now we cannot access history inside app
+// but we can do that inside individual routes because ap0p is not wrapped with the browserRouter.
+// App is outside the browserRouter.So do it using Routing.
 
-function App() {
+function App() { //Now we have access to the application state everywhere including app.js
   const [state,dispatch] = useReducer(reducer,initialState)
   return (
     <UserContext.Provider value={{state,dispatch}}>

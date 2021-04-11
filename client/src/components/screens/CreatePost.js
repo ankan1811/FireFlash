@@ -37,7 +37,7 @@ const CretePost = ()=>{
     }
     },[url])
                 //Everything about posts image
-   const postDetails = ()=>{
+   const postDetails = ()=>{ //This is copied fromn mozilla docs
        const data = new FormData()//Uploading image in CLOUDINARY
        data.append("file",image)
        data.append("upload_preset","new-insta")// the name in cloudinary Change it

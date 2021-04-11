@@ -7,7 +7,10 @@ const CretePost = ()=>{
     const [body,setBody] = useState("")
     const [image,setImage] = useState("")
     const [url,setUrl] = useState("")
-    useEffect(()=>{
+    useEffect(()=>{ //This will only run when url changes i.e. we update our state of url using setUrl.
+        //Uploading on cloudinary will take time. So when that is done and state of url is updated then make a post request to createPost route.
+        
+        // Useeffect will also happen when component mounts .so to prevent any error always add a if condition.
        if(url){
         fetch("/createpost",{ // this createpost route is in the backend
             method:"post",

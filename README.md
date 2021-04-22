@@ -1,7 +1,7 @@
-# FireFlash(Ankan's Instagram Clone) 
+# FireFlash (Ankan's Instagram Clone) 
 ### ⭐ ✅ MERN STACK(Mongodb,Express,React,Nodejs)
 
- It is a real time social media web application made by me(Ankan Pal)  which consists of all major functions of Instagram including signup,signin, create post,delete post, follow and unfollow users,make comments and many more.You can refer to the code.It is a MERN stack project comprising Reactjs, MongoDB,Expressjs and Nodejs.I have used postman to check the API calls.You can check the images folder to view my application.This is a REACT Application Built Cloning All the basic functionalities that the Social media platform Instagram Provides ✨
+ It is a real time social media web application made by me(Ankan Pal) named <b>FireFlash</b>  which consists of all major functions of Instagram including signup,signin, create post,delete post, follow and unfollow users,make comments and many more.You can refer to the code.It is a MERN stack project comprising Reactjs, MongoDB,Expressjs and Nodejs.I have used postman to check the API calls.You can check the images folder to view my application.This is a REACT Application Built Cloning All the basic functionalities that the Social media platform Instagram Provides ✨
 
 <b>⭐I have added detailed explanation of the entire codebase so that anyone familiar with MERN stack can understand.</b>
 

@@ -31,7 +31,8 @@ Sneaky features of FireFlash ✅ :
 
  
 
-# Overview of all functionalities in the steps of completion of the social media web application
+# Overview of all functionalities in the steps of completion of the social media web application 
+## Original (Old) Version :
 ## 1.Signup (for new users)
 
 

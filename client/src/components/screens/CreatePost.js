@@ -83,7 +83,7 @@ const CretePost = ()=>{
             onChange={(e)=>setBody(e.target.value)}
              />
            <div className="file-field input-field">
-            <div className="btn #64b5f6 blue darken-1">
+            <div className="btn #f50057 pink accent-3">
                 <span>Upload Image</span>
                 <input type="file" onChange={(e)=>setImage(e.target.files[0])} />
             </div>
@@ -91,7 +91,7 @@ const CretePost = ()=>{
                 <input className="file-path validate" type="text" />
             </div>
             </div>
-            <button className="btn waves-effect waves-light #64b5f6 blue darken-1"
+            <button className="btn waves-effect waves-light #f50057 pink accent-3"
             onClick={()=>postDetails()}
             
             >
